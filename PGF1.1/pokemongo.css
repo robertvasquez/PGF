@@ -1,0 +1,291 @@
+    .pokemonFill {
+	font-family: 'Kaushan Script', cursive;
+	color: #ffcb05;
+	text-shadow: 1px 1px 0 #395da8,
+	    -1px 1px 0 #395da8,
+	    1px -1px 0 #395da8,
+	    -1px -1px 0 #395da8,
+	    0px 1px 0 #395da8,
+	    0px -1px 0 #395da8,
+	    -1px 0px 0 #395da8,
+	    1px 0px 0 #395da8,
+	    2px 2px 0 #395da8,
+	    -2px 2px 0 #395da8,
+	    2px -2px 0 #395da8,
+	    -2px -2px 0 #395da8,
+	    0px 2px 0 #395da8,
+	    0px -2px 0 #395da8,
+	    -2px 0px 0 #395da8,
+	    2px 0px 0 #395da8,
+	    1px 2px 0 #395da8,
+	    -1px 2px 0 #395da8,
+	    1px -2px 0 #395da8,
+	    -1px -2px 0 #395da8,
+	    2px 1px 0 #395da8,
+	    -2px 1px 0 #395da8,
+	    2px -1px 0 #395da8,
+	    -2px -1px 0 #395da8; 
+    }
+	
+    .c {
+	text-align: center;
+    }
+    
+    .b {
+    	border-style: solid;
+    	border-width: 1px;
+    }
+    
+    .siteFontColor {
+    	background-color: #F0EFF5;
+    	font-family: 'Kaushan Script', cursive;	
+    }
+    
+    .bannerFontColor {
+ 	background-color: #ee1515;
+ 	color: white;
+    }
+ 	
+    .rMargin {
+  	margin-right: 0px;
+    	margin-left:0px;
+    }
+	
+    .siteAboutPadding {
+	padding: 4px;
+    }
+	
+    .signupMinWidth {
+	min-width: 284px;
+    }
+	
+    .pokemon3D {
+	text-shadow:
+	    -1px 1px 0 #395da8,
+	    -2px 2px 0 #395da8,
+	    -3px 3px 0 #395da8,
+	    -4px 4px 0 #395da8,
+	    -4px 4px 0 #395da8,
+	    0px 1px 1px rgba(0,0,0,.4),
+	    0px 2px 2px rgba(0,0,0,.3),
+	    -1px 3px 3px rgba(0,0,0,.2),
+	    -1px 5px 5px rgba(0,0,0,.1),
+	    -2px 8px 8px rgba(0,0,0,.1),
+	    -2px 13px 13px rgba(0,0,0,.1);
+    }
+		
+    .threeDText {
+	text-shadow:
+	    -1px 1px 0 #ddd,
+	    -2px 2px 0 #c8c8c8,
+	    -3px 3px 0 #ccc,
+	    -4px 4px 0 #b8b8b8,
+	    -4px 4px 0 #bbb,
+	    0px 1px 1px rgba(0,0,0,.4),
+	    0px 2px 2px rgba(0,0,0,.3),
+	    -1px 3px 3px rgba(0,0,0,.2),
+	    -1px 5px 5px rgba(0,0,0,.1),
+	    -2px 8px 8px rgba(0,0,0,.1),
+	    -2px 13px 13px rgba(0,0,0,.1);
+    }
+	
+    .glyphiconHome{
+	color: black;
+	font-size: 30px;
+    }
+	
+    .glyphiconProfile{
+	color: white;
+	font-size: 30px;
+    }
+	
+    .glyphicon-user:hover,
+    .glyphicon-user:focus{
+	color: #00E67E;
+  	font-size: 34px;
+    }
+	
+    .glyphicon-pencil:hover,
+    .glyphicon-pencil:focus{
+	color: #00E67E;
+  	font-size: 34px;
+    }
+	
+    .glyphicon-search:hover,
+    .glyphicon-search:focus{
+	color: #00E67E;
+  	font-size: 34px;
+    }
+	
+    .glyphicon-road:hover,
+    .glyphicon-road:focus{
+	color: #00E67E;
+  	font-size: 34px;
+    }
+	
+    .glyphicon-map-marker:hover,
+    .glyphicon-map-marker:focus{
+	color: #00E67E;
+  	font-size: 34px;
+    }
+	
+    .glyphicon-pushpin:hover,
+    .glyphicon-pushpin:focus{
+	color: #00E67E;
+  	font-size: 34px;
+    }
+	
+    .glyphicon-comment:hover,
+    .glyphicon-comment:focus{
+	color: #00E67E;
+  	font-size: 34px;
+    }
+	
+    .glyphicon-wrench:hover,
+    .glyphicon-wrench:focus{
+	color: #00E67E;
+  	font-size: 34px;
+    }
+	
+    .n {
+    	position: absolute;
+    	top: 2px;
+    	right: 30px;
+    	padding: 1px 7px;
+    	border: 2px solid white;
+    	border-radius:100px;
+	background: #FF8F45;
+    	color: white;
+    	font-family: 'Kaushan Script', cursive;
+    	box-shadow: 0 1px 2px rgba(0,0,0,.5), 
+    		    0 1px 4px rgba(0,0,0,.4), 
+    		    0 0 1px rgba(0,0,0,.7) inset, 
+    		    0 10px 0px rgba(255,255,255,.11) inset;
+    	webkit-background-clip: padding-box;
+    }
+	
+    .displayParent {
+    	position:relative;
+    	z-index:1000;
+    }
+    
+    .friendContainer {
+	position:absolute;
+	top: 10px;
+	left: 0px;
+	height: 120px;
+	padding: 0px;
+	display:none;
+	
+	background-color: white;
+	border-radius: 30px; 
+   	border:2px solid; 
+   	padding:1px;
+    }
+    
+    .rFriendContainer{
+	background-color: white;
+	border-radius: 30px; 
+   	border:2px solid; 
+   	padding:1px;
+    }
+    
+    .profilePictureZone{
+	width:300px;
+	height:300px;
+	border:2px dashed #000;
+	color:#000;
+	line-height:300px;
+	text-align: center;
+    }
+    
+    .profilePictureDisplay {
+	width: 120px;
+	height: 120px;
+	border-radius: 60px;
+	-webkit-border-radius: 60px;
+	-moz-border-radius: 60px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+	-webkit-box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+	-moz-box-shadow: 0 0 10px rgba(0, 0, 0, .8);
+    }	
+
+    .blankProfilePictureDisplay{
+	width:120px;
+	height:120px;
+	border:2px dashed #000;
+	color:#000;
+	line-height:25px;
+	text-align: center;
+	font-size: 15px;
+	margin: 0 auto;
+    }
+    
+    .flPicture {
+   	border-radius: 30px; 
+   	border:3px; 
+   	padding:1px;
+   	width:130px;
+	height:130px;
+    }
+
+    .rcorners {
+    	width: 300px;
+   	height: 300px;
+   	border-radius: 30px; 
+   	border:3px solid; 
+   	padding:1px;
+    }
+    
+    .roundEdge {
+	border-radius: 30px; 
+   	border:3px; 
+   	padding:1px;
+	background-color: #ee1515;
+   	color: white;
+    }
+    
+    .dropbtn {
+    	background-color: #4CAF50;
+    	color: white;
+    	padding: 14px;
+    	font-size: 14px;
+    	border: none;
+    	cursor: pointer;
+    }
+    
+    .dropbtn:hover,
+    .dropbtn:focus {
+    	background-color: #3e8e41;
+    }
+    
+    .dropdown {
+    	position: relative;
+    	display: inline-block;
+    }
+    
+    .dropdown-content {
+   	display: none;
+    	position: absolute;
+    	background-color: #f9f9f9;
+    	min-width: 140px;
+    	box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    }
+    
+    .dropdown-content a {
+    	color: black;
+    	padding: 12px 16px;
+    	text-decoration: none;
+    	display: block;
+    }
+    
+    .blankProfilePictureFL{
+	width:130px;
+	height:130px;
+	border:2px dashed #000;
+	color:#000;
+	line-height:25px;
+	text-align: center;
+	font-size: 15px;
+	margin: 0 auto;
+    }
